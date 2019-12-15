@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:id="@+id/image_grid"
+            android:src="@drawable/fashion"
+            android:layout_height="90dp" />
+
+        <customfonts.TextView_Lato_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="2.6sp"
+            android:id="@+id/tv_grid"
+            android:text="Fashion"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="#8f8f8f"
+            android:textSize="15.4sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

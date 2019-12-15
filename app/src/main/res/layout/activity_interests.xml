@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterestsActivity">
+
+
+    <customfonts.TextView_Lato_SemiBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20.6sp"
+        android:textColor="#131314"
+        android:layout_marginTop="40dp"
+        android:lineSpacingExtra="3.4sp"
+       android:layout_centerHorizontal="true"
+        android:text="Choose Your Interests"
+        />
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_marginTop="96.2dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/gridView"
+        android:numColumns="auto_fit"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/bg_gradient_very_soft"
+        android:layout_above="@+id/lay_bottom"
+        android:layout_gravity="center"
+        android:layout_marginRight="4.8dp"
+        android:layout_marginEnd="4.8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:id="@+id/lay_bottom"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="27.5dp"
+            android:src="@drawable/paginationsix"
+            android:layout_marginStart="27.5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:layout_height="match_parent">
+
+            <customfonts.MyTextView_LatoBold
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:textColor="#001fd8"
+                android:lineSpacingExtra="1.5sp"
+                android:gravity="center"
+                android:text="@string/next_step"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

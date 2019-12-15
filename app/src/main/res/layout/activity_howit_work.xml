@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/backgroundhiw"
+    android:layout_height="match_parent">
+
+    <customfonts.Textview_Lora_Italic
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26.9sp"
+        android:textColor="#493726"
+        android:layout_marginTop="81dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_centerHorizontal="true"
+        android:lineSpacingExtra="8.1sp"
+        android:gravity="center_horizontal"
+        android:text="@string/how_it_works"
+        />
+
+    <customfonts.Textview_Lora_Italic
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#493726"
+        android:layout_marginTop="122dp"
+        android:layout_centerHorizontal="true"
+        android:lineSpacingExtra="3sp"
+        android:gravity="center_horizontal"
+        android:text="@string/tap_button_below"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/buttonhiw"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="71.9dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/ppagination"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

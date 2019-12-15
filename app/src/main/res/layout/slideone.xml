@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="128dp"
+        android:src="@drawable/image"
+        android:layout_gravity="end"
+        android:scaleType="matrix"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <customfonts.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26.9sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#e2e2e2"
+            android:lineSpacingExtra="6.1sp"
+            android:gravity="center_horizontal"
+            android:text="Get Started"
+            />
+
+        <customfonts.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19.2sp"
+            android:layout_gravity="center"
+            android:textColor="#919191"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:lineSpacingExtra="3.8sp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center_horizontal"
+            android:text="Create awesome albums, add photos from your location and show to the people around the world."
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/rect1"
+            android:text="LETS GO!"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/framelayout"
+        android:layout_height="413dp">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/onboardsiximage"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#33000000"
+            android:layout_height="24dp"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_below="@+id/framelayout"
+        android:layout_marginTop="17.9dp"
+        android:gravity="center"
+
+        android:layout_height="wrap_content">
+
+        <customfonts.MyTextView_LoraBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30.7sp"
+            android:textColor="#111010"
+            android:lineSpacingExtra="8.3sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25.6dp"
+            android:layout_marginRight="25.6dp"
+            android:gravity="center_horizontal"
+            android:text="@string/explore_new_species"
+            />
+
+
+        <customfonts.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15.4sp"
+            android:textColor="#3d3a3a"
+            android:layout_marginBottom="12.1dp"
+            android:layout_marginTop="15.6dp"
+            android:layout_marginLeft="26.4dp"
+            android:layout_marginRight="24.6dp"
+            android:lineSpacingExtra="7.7sp"
+            android:gravity="center_horizontal"
+            android:text="@string/onboardingsix_des"
+            android:layout_marginStart="26.4dp"
+            android:layout_marginEnd="24.6dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/bg_gradient_very_soft"
+        android:layout_above="@+id/lay_bottom"
+        android:layout_gravity="center"
+        android:layout_marginRight="4.8dp"
+        android:layout_marginEnd="4.8dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:id="@+id/lay_bottom"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="27.5dp"
+            android:src="@drawable/paginationsix"
+            android:layout_marginStart="27.5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:layout_height="match_parent">
+
+            <customfonts.MyTextView_LatoBold
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:textColor="#ffffff"
+                android:background="#9c39ab"
+                android:lineSpacingExtra="1.5sp"
+                android:gravity="center"
+                android:text="@string/get_started"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

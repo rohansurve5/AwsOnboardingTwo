@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AwsOnboardingTwo</string>
+    <string name="edit_your_photos_faster">Edit Your Photos Faster</string>
+    <string name="previous">Previous</string>
+    <string name="explore_new_species">Explore new species</string>
+    <string name="onboardingsix_des">Science has identified some 2 million species of plants, animals and microbes on Earth, but scientists estimated there are millions more left to discover.</string>
+    <string name="get_started">Get Started</string>
+    <string name="next_step">Next step</string>
+    <string name="how_it_works">How it Works</string>
+    <string name="tap_button_below">Tap button below</string>
+    <string name="skip">Skip</string>
+    <string name="fresh_fish">Fresh Fish</string>
+    <string name="select_your_favorite_type_of_dish">Select Your Favorite Type of Dish</string>
+</resources>
